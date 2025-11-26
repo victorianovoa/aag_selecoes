@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://dummyimage.com/1200x250/0d0d0d/ff7ad1&text=AAG+Sele%C3%A7%C3%B5es+%7C+Mobile+App+Prototype" width="100%" style="border-radius: 12px;" />
+  <img src="https://dummyimage.com/1200x250/f9c4e5/000000&text=AAG+Sele%C3%A7%C3%B5es+%7C+Mobile+App+Prototype" width="100%" style="border-radius: 12px;" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-ff7ad1?style=for-the-badge&labelColor=111" />
-  <img src="https://img.shields.io/badge/feito%20com-HTML%20%7C%20Tailwind%20%7C%20JS-7d5fff?style=for-the-badge&labelColor=111" />
-  <img src="https://img.shields.io/badge/mobile-first-1E90FF?style=for-the-badge&labelColor=111" />
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-f48fb1?style=for-the-badge&labelColor=111" />
+  <img src="https://img.shields.io/badge/feito%20com-HTML%20%7C%20Tailwind%20%7C%20JS-b39ddb?style=for-the-badge&labelColor=111" />
+  <img src="https://img.shields.io/badge/mobile-first-90caf9?style=for-the-badge&labelColor=111" />
 </p>
 
 ---
@@ -22,23 +22,23 @@ Interface mobile-first para organização de estudos, editais, provas e desempen
 ---
 
 ## 🌟 Visão Geral  
-O **AAG Seleções** é um protótipo funcional de aplicação mobile usando apenas **HTML + TailwindCSS + JavaScript**, com foco em:
+O **AAG Seleções** é um protótipo mobile criado com **HTML + TailwindCSS + JavaScript**, com foco em:
 
-- navegação fluida entre telas  
-- identidade visual elegante em rosa e roxo  
-- UX intuitivo e limpo  
-- layout mobile-first real  
+- navegação suave entre telas  
+- estética rosa + roxinho premium  
+- UX minimalista e intuitiva  
+- experiência 100% mobile-first  
 
-O app simula uma experiência completa — login, dashboard, planner, editais, provas e boletins de desempenho.
+Inclui telas completas: login, dashboard, planner, editais, provas e boletins.
 
 ---
 
 ## 🎨 Tecnologias Utilizadas
 
 - **HTML5**
-- **TailwindCSS (via CDN)**
+- **TailwindCSS (CDN)**
 - **JavaScript Vanilla**
-- **Google Fonts (Montserrat + Playfair Display)**
+- **Playfair Display + Montserrat**
 - **Lucide Icons**
 - **Glassmorphism**
 - **Dark Mode automático**
@@ -48,40 +48,40 @@ O app simula uma experiência completa — login, dashboard, planner, editais, p
 ## 🚀 Funcionalidades
 
 ### 🔐 Login  
-- Entrada com CPF e senha  
-- Botão gov.br  
-- Layout moderno + microanimações  
+- CPF + senha  
+- Login gov.br  
+- Layout moderno e fluido  
 
 ### 🏠 Dashboard  
-- Saudação personalizada  
+- Saudação dinâmica  
 - Alerta de prazos  
-- Cards informativos e atalhos  
-- Barra de busca  
+- Atalhos  
+- Busca global  
 
 ### 🗓️ Planner  
 - Agenda semanal  
-- Lista de tarefas  
+- Tarefas  
 - Guias de estudo  
 
 ### 📄 Editais  
 - Editais abertos  
-- Resumo das bancas  
+- Resumo de bancas  
 
 ### 📝 Provas  
 - Provas agendadas  
-- Resultados disponíveis  
+- Resultados  
 
 ### 🏆 Resultado da Prova  
-- Classificação final  
-- Barras animadas  
-- Painel de notas  
+- Classificação  
+- Barras de desempenho animadas  
+- Painel de notas completo  
 
 ---
 
-## 🧭 Navegação entre Telas  
+# 🔧 Configuração, Estrutura e Execução (Tudo Junto)
+
+## 🌙 Dark Mode  
+Tailwind configurado com:
 
 ```js
-function nav(screen) {
-    document.querySelectorAll(".app-screen").forEach(s => s.classList.add("hide"));
-    document.querySelector(`#screen-${screen}`).classList.remove("hide");
-}
+darkMode: 'class'
