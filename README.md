@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Substitua pelo seu link do GitHub Pages -->
-  <h2><a href="https://SEU-USUARIO.github.io/NOME-DO-REPO/" target="_blank">🌐 Abrir Protótipo (Site) — AAG Seleções (GitHub Pages)</a></h2>
+  <h2><a href="https://victorianovoa.github.io/aag_selecoes/" target="_blank">🌐 Abrir Protótipo (Site) — AAG Seleções (GitHub Pages)</a></h2>
   <img src="https://dummyimage.com/1200x250/f9c4e5/000000&text=AAG+Seleções+%7C+Mobile+App+Prototype" width="100%" style="border-radius: 12px;" alt="Banner AAG Seleções - tons rosa claro" />
 </p>
 
@@ -16,10 +16,6 @@
 
 **AAG Seleções** é um protótipo mobile-first feito em **HTML, TailwindCSS e JavaScript**. O projeto simula um app de estudos/concursos com telas: **Login, Dashboard, Planner, Editais, Provas, Resultados** — tudo em front-end pronto para apresentação ou evolução para um MVP.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/demo.gif" width="300px" style="border-radius: 16px;" />
-  <br><em>Preview ilustrativo (substitua pelo seu GIF se quiser)</em>
-</p>
 
 ---
 
